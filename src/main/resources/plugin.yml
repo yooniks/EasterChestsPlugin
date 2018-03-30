@@ -1,0 +1,6 @@
+name: 'EasterChests'
+version: ${project.version}
+main: 'xyz.yooniks.easterchests.EasterChestsPlugin'
+authors: [yooniks]
+description: 'Plugin na wielkanocne skrzynki!'
+website: 'www.youtube.com/c/Enchanted3'
