@@ -91,6 +91,8 @@ public class InventoryUtil {
         final ItemStack glass = new ItemStack(Material.STAINED_GLASS_PANE, 1, (short) 7);
         final ItemMeta im = glass.getItemMeta();
         im.setDisplayName(ChatUtil.fixColor("&8#"));
+        glass.setItemMeta(im);
+
         for (int i = 0; i < this.SELECT_INVENTORY.getSize(); i++) {
             if (this.SELECT_INVENTORY.getItem(i) == null)
                 this.SELECT_INVENTORY.setItem(i, glass);
